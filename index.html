@@ -4,9 +4,142 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <nav class="nav-bar">
+      <div class="menu">
+        <div class="logo"><img src="/assets/logo.svg" alt="logo" /></div>
+        <div class="itens-nav-bar"><p>Browse</p></div>
+        <div class="itens-nav-bar"><p>Landings</p></div>
+        <div class="itens-nav-bar"><p>Pages</p></div>
+        <div class="itens-nav-bar"><p>Acounts</p></div>
+      </div>
+
+      <div class="menu-icons">
+        <div class="ion-icon">
+          <ion-icon name="notifications-outline"></ion-icon>
+        </div>
+        <div class="ion-icon">
+          <ion-icon name="person-circle-outline"></ion-icon>
+        </div>
+      </div>
+    </nav>
+    <div class="banner">
+      <div class="banner-title">
+        <h1>Welcome Web Students!</h1>
+        <p>Hand-picked Instructor and expertly crafted</p>
+
+        <p>courses, designed for the modern students and</p>
+        <p>entrepreneur.</p>
+        <div class="btn-container">
+          <input class="browse-btn" type="button" value="Browse Courses" />
+          <input
+            class="instructor-btn"
+            type="button"
+            value="Are You Instructor?"
+          />
+        </div>
+      </div>
+      <div class="img-banner-container">
+        <img src="/assets/hero-img.png" alt="" />
+      </div>
+    </div>
+
+    <div class="after-banner">
+      <div class="elements-after-banner">
+        <div class="ion-icon after-banner-icon">
+          <ion-icon name="videocam"></ion-icon>
+        </div>
+        <div class="after-banner-info">
+          <h4>30.000 online courses</h4>
+          <p>Enjoy variety of fresh topics</p>
+        </div>
+      </div>
+
+      <div class="elements-after-banner">
+        <div class="ion-icon after-banner-icon">
+          <ion-icon name="people"></ion-icon>
+        </div>
+        <div class="after-banner-info">
+          <h4>Expert instruction</h4>
+          <p>Find the right instructor for you</p>
+        </div>
+      </div>
+      <div class="elements-after-banner">
+        <div class="ion-icon after-banner-icon">
+          <ion-icon name="time"></ion-icon>
+        </div>
+        <div class="after-banner-info">
+          <h4>Lifetime access</h4>
+          <p>Learn on your schedule</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-card-container">
+      <div class="main-container">
+        <div class="reomended-section">
+          <div><h3>Recomended to you</h3></div>
+          <div class="card-recomended">
+            <div class="cards">
+              <img class="img-cards" src="/assets/course-graphql.jpg" alt="" />
+              <h4>GraphQL: introduction to graphQl for beginers</h4>
+
+              <div class="info-cards-first-line">
+                <div class="icon-card">
+                  <ion-icon name="time"></ion-icon>
+                </div>
+                <p>24 40m</p>
+                <div class="icon-card">
+                  <ion-icon name="podium"></ion-icon>
+                </div>
+                <p>Advanced</p>
+              </div>
+              <div class="info-cards-second-line">
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-half"></ion-icon>
+                </div>
+                <div class="rating">2.5</div>
+                <div class="rating-quantity">(1.500)</div>
+              </div>
+              <div class="info-cards-third-line">
+                <p>$500</p>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
