@@ -1,11 +1,16 @@
 * {
   font-family: "Inter", sans-serif;
 }
+body {
+  background-color: #f5f4f9;
+  margin: 0;
+}
 .nav-bar {
   display: flex;
   justify-content: space-between;
   height: 8vh;
-  margin-top: 10px;
+
+  background-color: white;
 }
 .menu {
   display: flex;
@@ -25,6 +30,10 @@
 .menu-icons {
   padding: 10px;
   margin-right: 10px;
+}
+.ion-icon.avatar-icon {
+  font-size: 32px;
+  color: rgb(83, 83, 83);
 }
 .ion-icon {
   font-size: 25px;
@@ -50,6 +59,9 @@
 .img-banner-container {
   height: 54vh;
   overflow: hidden;
+}
+.hero {
+  height: 54vh;
 }
 
 .btn-container {
@@ -80,6 +92,7 @@
   display: flex;
   height: 12vh;
   justify-content: space-evenly;
+  background-color: white;
 }
 
 .elements-after-banner {
@@ -114,29 +127,36 @@
   background-color: #f5f4f9;
   display: flex;
   justify-content: center;
-  margin-bottom: 300px;
 }
 
 .main-container {
   width: 74vw;
   padding-top: 50px;
 }
-
-.cards {
-  width: 220px;
+.cards-section {
+  display: flex;
+  justify-content: space-between;
 }
-.cards > h4 {
-  margin: 0;
+.cards {
+  width: 230px;
+  background-color: white;
+  border-radius: 5px;
+}
+.cards > div > h4 {
+  margin: 10px;
 }
 .img-cards {
-  max-width: 220px;
+  max-width: 230px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .info-cards-first-line {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  margin-top: 10px;
+  margin: 13px 5px;
+  color: gray;
 }
 
 .info-cards-first-line > p {
@@ -150,11 +170,66 @@
 
 .info-cards-second-line {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  margin-top: 15px;
+  margin: 15px 7px;
 }
 
 .stars {
-  color: yellow;
+  color: rgb(238, 210, 49);
+}
+.rating {
+  color: rgb(238, 210, 49);
+}
+.rating-quantity {
+  color: gray;
+}
+.info-cards-third-line {
+  display: flex;
+  align-items: center;
+}
+.price {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.line-through {
+  text-decoration: line-through;
+  font-size: 12px;
+  color: gray;
+}
+
+.info-cards-fourth-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.instructor-name {
+  color: grey;
+}
+
+.icon-instructor-name {
+  color: grey;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  color: grey;
+}
+
+.rights {
+  margin-left: 10px;
+}
+
+.menu-footer {
+  margin-right: 10px;
+  display: flex;
 }

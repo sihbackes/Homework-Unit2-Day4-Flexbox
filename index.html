@@ -34,11 +34,11 @@
       </div>
 
       <div class="menu-icons">
-        <div class="ion-icon">
+        <div class="ion-icon avatar-icon">
           <ion-icon name="notifications-outline"></ion-icon>
         </div>
-        <div class="ion-icon">
-          <ion-icon name="person-circle-outline"></ion-icon>
+        <div>
+          <img class="avatar" src="/assets/avatar-5.jpg" alt="avatar picture" />
         </div>
       </div>
     </nav>
@@ -59,7 +59,7 @@
         </div>
       </div>
       <div class="img-banner-container">
-        <img src="/assets/hero-img.png" alt="" />
+        <img class="hero" src="/assets/hero-img.png" alt="" />
       </div>
     </div>
 
@@ -96,18 +96,421 @@
 
     <div class="main-card-container">
       <div class="main-container">
-        <div class="reomended-section">
-          <div><h3>Recomended to you</h3></div>
-          <div class="card-recomended">
-            <div class="cards">
-              <img class="img-cards" src="/assets/course-graphql.jpg" alt="" />
+        <div><h3>Recomended to you</h3></div>
+        <div class="cards-section">
+          <div class="cards">
+            <div>
+              <img
+                class="img-cards"
+                src="/assets/course-graphql.jpg"
+                alt="graphQl logo"
+              />
               <h4>GraphQL: introduction to graphQl for beginers</h4>
 
               <div class="info-cards-first-line">
                 <div class="icon-card">
                   <ion-icon name="time"></ion-icon>
                 </div>
-                <p>24 40m</p>
+                <p>2h 40m</p>
+                <div class="icon-card">
+                  <ion-icon name="podium"></ion-icon>
+                </div>
+                <p>Advance</p>
+              </div>
+              <div class="info-cards-second-line">
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-half"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div class="rating">2.5</div>
+                <div class="rating-quantity">(1,500)</div>
+              </div>
+              <div class="info-cards-third-line">
+                <p class="price">$500</p>
+                <p class="line-through">$600</p>
+              </div>
+              <hr />
+              <div class="info-cards-fourth-line">
+                <img
+                  class="avatar"
+                  src="/assets/avatar-5.jpg"
+                  alt="avatar picture"
+                />
+                <p class="instructor-name">Brooklyn Simons</p>
+                <div class="icon-instructor-name">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div>
+              <img
+                class="img-cards"
+                src="/assets/course-javascript.jpg"
+                alt="JavaScrit logo"
+              />
+              <h4>A Complete Beginner's Guide to JavaScrit</h4>
+
+              <div class="info-cards-first-line">
+                <div class="icon-card">
+                  <ion-icon name="time"></ion-icon>
+                </div>
+                <p>4h 10m</p>
+                <div class="icon-card">
+                  <ion-icon name="podium"></ion-icon>
+                </div>
+                <p>Advance</p>
+              </div>
+              <div class="info-cards-second-line">
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-half"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div class="rating">3.5</div>
+                <div class="rating-quantity">(7,500)</div>
+              </div>
+              <div class="info-cards-third-line">
+                <p class="price">$700</p>
+                <p class="line-through">$850</p>
+              </div>
+              <hr />
+              <div class="info-cards-fourth-line">
+                <img
+                  class="avatar"
+                  src="/assets/avatar-1.jpg"
+                  alt="avatar picture"
+                />
+                <p class="instructor-name">Jenny Wilson</p>
+                <div class="icon-instructor-name">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div>
+              <img
+                class="img-cards"
+                src="/assets/course-node.jpg"
+                alt="node logo"
+              />
+              <h4>Beginning Node.js, Express & MongoDB Development</h4>
+
+              <div class="info-cards-first-line">
+                <div class="icon-card">
+                  <ion-icon name="time"></ion-icon>
+                </div>
+                <p>2h 00m</p>
+                <div class="icon-card">
+                  <ion-icon name="podium"></ion-icon>
+                </div>
+                <p>Intermediate</p>
+              </div>
+              <div class="info-cards-second-line">
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div class="rating">4.0</div>
+                <div class="rating-quantity">(15.700)</div>
+              </div>
+              <div class="info-cards-third-line">
+                <p class="price">$800</p>
+                <p class="line-through">$950</p>
+              </div>
+              <hr />
+              <div class="info-cards-fourth-line">
+                <img
+                  class="avatar"
+                  src="/assets/avatar-3.jpg"
+                  alt="avatar picture"
+                />
+                <p class="instructor-name">Sina Ray</p>
+                <div class="icon-instructor-name">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div>
+              <img
+                class="img-cards"
+                src="/assets/course-laravel.jpg"
+                alt="laravel logo"
+              />
+              <h4>Laravel:The Ultimate Beginner's Guide to Learn</h4>
+
+              <div class="info-cards-first-line">
+                <div class="icon-card">
+                  <ion-icon name="time"></ion-icon>
+                </div>
+                <p>1h 00m</p>
+                <div class="icon-card">
+                  <ion-icon name="podium"></ion-icon>
+                </div>
+                <p>Beginner</p>
+              </div>
+              <div class="info-cards-second-line">
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-half"></ion-icon>
+                </div>
+                <div class="rating">4.5</div>
+                <div class="rating-quantity">(2.500)</div>
+              </div>
+              <div class="info-cards-third-line">
+                <p class="price">$170</p>
+                <p class="line-through">$220</p>
+              </div>
+              <hr />
+              <div class="info-cards-fourth-line">
+                <img
+                  class="avatar"
+                  src="/assets/avatar-7.jpg"
+                  alt="avatar picture"
+                />
+                <p class="instructor-name">Sobo Rikhan</p>
+                <div class="icon-instructor-name">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-card-container">
+      <div class="main-container">
+        <div><h3>Most Popular</h3></div>
+        <div class="cards-section">
+          <div class="cards">
+            <div>
+              <img
+                class="img-cards"
+                src="/assets/course-html.jpg"
+                alt="html logo"
+              />
+              <h4>HTML full Course - Build a Website Tutorial</h4>
+
+              <div class="info-cards-first-line">
+                <div class="icon-card">
+                  <ion-icon name="time"></ion-icon>
+                </div>
+                <p>3h 16m</p>
+                <div class="icon-card">
+                  <ion-icon name="podium"></ion-icon>
+                </div>
+                <p>Beginner</p>
+              </div>
+              <div class="info-cards-second-line">
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div class="rating">2.5</div>
+                <div class="rating-quantity">(1.600)</div>
+              </div>
+              <div class="info-cards-third-line">
+                <p class="price">$550</p>
+                <p class="line-through">$700</p>
+              </div>
+              <hr />
+              <div class="info-cards-fourth-line">
+                <img
+                  class="avatar"
+                  src="/assets/avatar-4.jpg"
+                  alt="avatar picture"
+                />
+                <p class="instructor-name">Miston Wilson</p>
+                <div class="icon-instructor-name">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div>
+              <img
+                class="img-cards"
+                src="/assets/course-javascript.jpg"
+                alt="JavaScrit logo"
+              />
+              <h4>A Complete Beginner's Guide to JavaScrit</h4>
+
+              <div class="info-cards-first-line">
+                <div class="icon-card">
+                  <ion-icon name="time"></ion-icon>
+                </div>
+                <p>4h 10m</p>
+                <div class="icon-card">
+                  <ion-icon name="podium"></ion-icon>
+                </div>
+                <p>Advance</p>
+              </div>
+              <div class="info-cards-second-line">
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-half"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div class="rating">3.5</div>
+                <div class="rating-quantity">(7,500)</div>
+              </div>
+              <div class="info-cards-third-line">
+                <p class="price">$700</p>
+                <p class="line-through">$850</p>
+              </div>
+              <hr />
+              <div class="info-cards-fourth-line">
+                <img
+                  class="avatar"
+                  src="/assets/avatar-1.jpg"
+                  alt="avatar picture"
+                />
+                <p class="instructor-name">Jenny Wilson</p>
+                <div class="icon-instructor-name">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div>
+              <img
+                class="img-cards"
+                src="/assets/course-node.jpg"
+                alt="node logo"
+              />
+              <h4>Beginning Node.js, Express & MongoDB Development</h4>
+
+              <div class="info-cards-first-line">
+                <div class="icon-card">
+                  <ion-icon name="time"></ion-icon>
+                </div>
+                <p>2h 00m</p>
+                <div class="icon-card">
+                  <ion-icon name="podium"></ion-icon>
+                </div>
+                <p>Intermediate</p>
+              </div>
+              <div class="info-cards-second-line">
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div class="rating">4.0</div>
+                <div class="rating-quantity">(15.700)</div>
+              </div>
+              <div class="info-cards-third-line">
+                <p class="price">$800</p>
+                <p class="line-through">$950</p>
+              </div>
+              <hr />
+              <div class="info-cards-fourth-line">
+                <img
+                  class="avatar"
+                  src="/assets/avatar-3.jpg"
+                  alt="avatar picture"
+                />
+                <p class="instructor-name">Sina Ray</p>
+                <div class="icon-instructor-name">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div>
+              <img
+                class="img-cards"
+                src="/assets/course-react.jpg"
+                alt="react logo"
+              />
+              <h4>How to easily create a website with React</h4>
+
+              <div class="info-cards-first-line">
+                <div class="icon-card">
+                  <ion-icon name="time"></ion-icon>
+                </div>
+                <p>3h 55m</p>
                 <div class="icon-card">
                   <ion-icon name="podium"></ion-icon>
                 </div>
@@ -133,13 +536,267 @@
                 <div class="rating-quantity">(1.500)</div>
               </div>
               <div class="info-cards-third-line">
-                <p>$500</p>
-                <p></p>
+                <p class="price">$600</p>
+                <p class="line-through">$750</p>
+              </div>
+              <hr />
+              <div class="info-cards-fourth-line">
+                <img
+                  class="avatar"
+                  src="/assets/avatar-2.jpg"
+                  alt="avatar picture"
+                />
+                <p class="instructor-name">April Noms</p>
+                <div class="icon-instructor-name">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of div cards -->
+        </div>
+      </div>
+    </div>
+    <div class="main-card-container">
+      <div class="main-container">
+        <div><h3>Trending</h3></div>
+        <div class="cards-section">
+          <div class="cards">
+            <div>
+              <img
+                class="img-cards"
+                src="/assets/course-gatsby.jpg"
+                alt="gatsby logo"
+              />
+              <h4>Revolutionize how you build the web</h4>
+
+              <div class="info-cards-first-line">
+                <div class="icon-card">
+                  <ion-icon name="time"></ion-icon>
+                </div>
+                <p>1h 46m</p>
+                <div class="icon-card">
+                  <ion-icon name="podium"></ion-icon>
+                </div>
+                <p>Intermediate</p>
+              </div>
+              <div class="info-cards-second-line">
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div class="rating">2.5</div>
+                <div class="rating-quantity">(16.500)</div>
+              </div>
+              <div class="info-cards-third-line">
+                <p class="price">$800</p>
+                <p class="line-through">$850</p>
+              </div>
+              <hr />
+              <div class="info-cards-fourth-line">
+                <img
+                  class="avatar"
+                  src="/assets/avatar-3.jpg"
+                  alt="avatar picture"
+                />
+                <p class="instructor-name">Jenny Wilson</p>
+                <div class="icon-instructor-name">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div>
+              <img
+                class="img-cards"
+                src="/assets/course-html.jpg"
+                alt="html logo"
+              />
+              <h4>HTML full Course - Build a Website Tutorial</h4>
+
+              <div class="info-cards-first-line">
+                <div class="icon-card">
+                  <ion-icon name="time"></ion-icon>
+                </div>
+                <p>3h 16m</p>
+                <div class="icon-card">
+                  <ion-icon name="podium"></ion-icon>
+                </div>
+                <p>Beginner</p>
+              </div>
+              <div class="info-cards-second-line">
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div class="rating">2.5</div>
+                <div class="rating-quantity">(1.600)</div>
+              </div>
+              <div class="info-cards-third-line">
+                <p class="price">$550</p>
+                <p class="line-through">$700</p>
+              </div>
+              <hr />
+              <div class="info-cards-fourth-line">
+                <img
+                  class="avatar"
+                  src="/assets/avatar-4.jpg"
+                  alt="avatar picture"
+                />
+                <p class="instructor-name">Miston Wilson</p>
+                <div class="icon-instructor-name">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div>
+              <img
+                class="img-cards"
+                src="/assets/course-node.jpg"
+                alt="node logo"
+              />
+              <h4>Beginning Node.js, Express & MongoDB Development</h4>
+
+              <div class="info-cards-first-line">
+                <div class="icon-card">
+                  <ion-icon name="time"></ion-icon>
+                </div>
+                <p>2h 00m</p>
+                <div class="icon-card">
+                  <ion-icon name="podium"></ion-icon>
+                </div>
+                <p>Intermediate</p>
+              </div>
+              <div class="info-cards-second-line">
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div class="rating">4.0</div>
+                <div class="rating-quantity">(15.700)</div>
+              </div>
+              <div class="info-cards-third-line">
+                <p class="price">$800</p>
+                <p class="line-through">$950</p>
+              </div>
+              <hr />
+              <div class="info-cards-fourth-line">
+                <img
+                  class="avatar"
+                  src="/assets/avatar-3.jpg"
+                  alt="avatar picture"
+                />
+                <p class="instructor-name">Sina Ray</p>
+                <div class="icon-instructor-name">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards">
+            <div>
+              <img
+                class="img-cards"
+                src="/assets/course-laravel.jpg"
+                alt="laravel logo"
+              />
+              <h4>Laravel:The Ultimate Beginner's Guide to Learn</h4>
+
+              <div class="info-cards-first-line">
+                <div class="icon-card">
+                  <ion-icon name="time"></ion-icon>
+                </div>
+                <p>1h 00m</p>
+                <div class="icon-card">
+                  <ion-icon name="podium"></ion-icon>
+                </div>
+                <p>Beginner</p>
+              </div>
+              <div class="info-cards-second-line">
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star"></ion-icon>
+                </div>
+                <div class="icon-card stars">
+                  <ion-icon name="star-half"></ion-icon>
+                </div>
+                <div class="rating">4.5</div>
+                <div class="rating-quantity">(2.500)</div>
+              </div>
+              <div class="info-cards-third-line">
+                <p class="price">$170</p>
+                <p class="line-through">$220</p>
+              </div>
+              <hr />
+              <div class="info-cards-fourth-line">
+                <img
+                  class="avatar"
+                  src="/assets/avatar-7.jpg"
+                  alt="avatar picture"
+                />
+                <p class="instructor-name">Sobo Rikhan</p>
+                <div class="icon-instructor-name">
+                  <ion-icon name="bookmark-outline"></ion-icon>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <footer>
+      <div class="rights"><p>2022 Geeks. All Rights Reserved.</p></div>
+      <div class="menu-footer">
+        <div class="itens-nav-bar"><p>Privacy</p></div>
+        <div class="itens-nav-bar"><p>Terms</p></div>
+        <div class="itens-nav-bar"><p>Feedback</p></div>
+        <div class="itens-nav-bar"><p>Support</p></div>
+      </div>
+    </footer>
   </body>
 </html>
